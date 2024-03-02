@@ -1,0 +1,262 @@
+/* home css start   */
+body{
+     background: lightcyan;
+}
+.navbar{
+    background:linear-gradient(#EA8D8D,#A890FE);
+    /* background: url(); */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+a.a:hover{
+    color: greenyellow;
+}
+a.aa:hover{
+    background-color: rgba(172, 255, 47, 0.877);
+    border-radius: 20px;
+}
+.ab{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+    border: 2px dotted black;
+}
+.for{
+    font-family: monospace;
+    font-weight: bold;
+}
+.foot{
+    background: url(../image//foot.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.rdxin{ 
+    border: 1px dotted;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.ccd{
+    background: url(../image//ccd.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.h13{
+    height: 13cm;
+}
+.h{
+    font-family: prague;
+}
+.fg{
+    font-size: 0.8rem;
+}
+.h7{
+    height: 7cm;
+}
+/* home css  end  */
+
+/* contact css start */
+.new{
+    background:linear-gradient(45deg, #90e016, #c42a8f);
+}
+.con{
+    letter-spacing: 3px;
+    font-family: ui-serif;
+    font-weight: bold ;
+}
+.cont{
+    background: url(../image//cont.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+/* contact csss end */
+
+/* yoga css start */
+ .ad{
+    text-align: justify;
+    padding-right: 1.5rem;
+    font-style: italic;
+    font-family: ui-monospace;    
+}
+.yoga{
+    background: url(../image/yoga.webp);
+    width: 100%;
+    height: 645px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -6rem;
+}
+.kl{
+    margin-top: 5cm;
+}
+.flex{
+    flex-direction:row;
+}
+.ln{
+    line-height: 1.5;
+}
+/* yoga css end */
+
+/* about css start */
+.about{
+    background: url(../image/about.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+.arrow{
+    background: url(../image/arr.jpg);
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    background-position: center;
+}
+.add{
+    text-align: justify;
+   /* padding-right: 1.5rem;  */
+    font-style: italic;
+    font-family: ui-monospace;    
+}
+/* about css end */
+
+/* meditation css start */
+.medi{
+    background: url(../image/medi.jpg);
+    width: 100%;
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.boxsh{
+    box-shadow: 17px 0 50px #f20ede;
+    border-radius: 14px 40px 14px 40px;
+    overflow: hidden;
+}
+.rdx{
+    background: yellowgreen;
+    border: 1px dotted;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.rdxx{
+    background: yellowgreen;
+    border: 1px dotted;
+    border-radius: 6%;
+}
+.h15{
+    height: 15cm;
+}
+.h8{
+    height: 8.4cm;
+}
+.jk{
+    font-weight: 700; 
+    text-align: justify;
+}
+/* meditaiton end */
+
+/* kirtan css start */
+.kr{
+    background: url(../image/kr.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+.cc{
+    background: url(../image/cc.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.krimg{
+    background: url(../image/krimg.png);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.kir{
+    background: url(../image/kir.jpg);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.h3{
+    height: 3.5cm;
+}
+.mg{
+    margin-top: 2cm;
+}
+
+
+/* kirtan css end */
+/* animation css strt */
+.box{
+    transform: scale(1);
+    transition: transform 1s;
+}
+.box:hover{
+    transform: scale(1.5);
+}
+.box1{
+    transform: scale(1);
+    transition: transform 1s;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
+.ani{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.ft{
+    font-size: 20px;
+}
+.fh{
+    font-weight: bold;
+}
+
+@keyframes up-down{
+0%{
+    transform: translate(0px);
+}
+100%{
+    transform: translateY(100px);
+}
+}
+/* animation css end */
+/*  media start */
+@media( max-width:768px){
+    .res{
+       text-align: center;
+    }
+    .cus{
+        width: 100%;
+    }
+    .krimg{
+        background: url(../image/krimg.png);
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+    }
+    .kir{
+        background: url(../image/kir.jpg);
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+/* media end */
